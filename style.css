@@ -1,0 +1,134 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F9F9FB;
+}
+
+.top{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+.general{
+    width: 100%;
+    border: 1px none ;
+    border-radius:10px ;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.information{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #3E1F92;
+    color: white;
+    list-style-image: url();
+    padding: 2vh;
+    
+}
+
+.information h2{
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.information p{
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.information li{
+    padding-bottom: 30px;
+}
+
+#last_li{
+    padding-bottom: 100px;
+}
+
+.information a{
+    padding-left: 10px;
+}
+.formulaire{
+    width: 100%;
+}
+.flex{
+    padding: 35px;
+    color: grey;
+}
+
+.flex_child input{
+    width: 400px;
+}
+
+.column_input{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.column_input label{
+    width: 50%;
+}
+
+.first_width{
+display: flex;
+width: 100%;
+}
+
+.second_width{
+display: flex;
+width: 100%;
+}
+
+.checkbox{
+    padding: 10px;
+}
+.checkbox p{
+    padding: 10px 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.checkbox_child{
+    display: flex;
+}
+
+input{
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+input:focus{
+    border: none;
+}
+
+#message{
+    color: black;
+    font-size: small;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 35px;
+    
+}
+#btn button{
+    padding: 15px 35px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #3E1F92;
+    color: white;
+
+}
